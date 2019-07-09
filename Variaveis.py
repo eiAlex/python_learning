@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 
 nome = input ("Qual seu nome ?")
 idade = input ("Qual a sua idade?")
