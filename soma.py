@@ -5,4 +5,4 @@ num2 = input ("Segundo número ")
 #conversão de string para inteiros
 soma = int (num1) + int (num2)
 
-print ("Resultado: ", soma)
+print ("Resultado: ", num1, " + ", num2, " = ", soma)
