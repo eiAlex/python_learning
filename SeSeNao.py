@@ -6,7 +6,7 @@ if num1 > num2:
     print("O {0} é maior que {1}".format(num1,num2))
 elif num2 > num1: 
     print("O {0} é maior que {1}".format(num2,num1))
-else:
+else:x
     print("Números iguais")
 
 
