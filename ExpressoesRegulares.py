@@ -4,3 +4,4 @@ a = "O gato é bonito"
 buscaGato = re.search (r'gato', a)
 
 print (buscaGato)
+print("Acou" ,buscaGato.group())
