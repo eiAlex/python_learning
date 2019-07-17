@@ -1,6 +1,9 @@
-import urllib
-url = 'http://diveintomark.org/projects/feed_parser/feedparser.py'
-arq = urllib.request.urlopen(url)
+from urllib.request import urlopen
+html = urlopen("http://www.google.com/")
+#print(html.read())
 
-
-print (url)
+import urllib 
+url = 'http://github.com/eiAlex/Python-Lerarning/blob/master/TesteBibilhotecasExterna.py'
+arqu = urlopen(url)
+#print(arqu.read())
+open('TesteBibilhotecasExterna.py').write(arqu.read())
