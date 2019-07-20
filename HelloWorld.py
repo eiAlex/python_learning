@@ -44,4 +44,12 @@ numRandom = random.randrange(1,10)
 
 print (numRandom)
 
+
+#desta forma é possível criar strings com sequencias de caractesre
+textoSa = '''Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.'''
+print(textoSa)
+
 exit()
