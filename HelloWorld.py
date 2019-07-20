@@ -27,6 +27,21 @@ a =b =c = d
 
 print(a,b,c)
 
+numInt = 10 # numero inteiro
+numFloat = 10.2 # numéro de pornto flutuante
+numComplex = 1j # numéro complexo onda a parte imaginaria é representada por j
+variSTR = 'String'
 
+#conversões são feitas utilizando cast
+
+convertFloar = float(numInt)
+convertInt = int(numFloat)
+convetComplex = complex(numComplex)
+
+# importa um lib randam e gera um numéro randomico entre 1 e 10 
+import random
+numRandom = random.randrange(1,10) 
+
+print (numRandom)
 
 exit()
