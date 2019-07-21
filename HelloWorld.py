@@ -115,5 +115,30 @@ print(1**2)
 #parte inteira da divisão
 print(81//9)
 
+#operadores de atribuição
+
+x1 = 5
+print(x1)
+x1+=5
+print(x1)
+x1-=5
+print(x1)
+x1*=5
+print(x1)
+x1 /=5
+print(x1)
+x1%=5
+print(x1)
+x1+=5
+print(x1)
+x1**=5
+print(x1)
+bool(x1)
+x1&=5
+print(x1)
+
+
+
+
 
 exit()
