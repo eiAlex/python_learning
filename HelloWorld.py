@@ -54,20 +54,35 @@ print(textoSa)
 
 #como na maioria das linguagens de programção as strings no python são vetores
 
-strVetor = ' Essa frase é um vetor'
+trabalhoComSTR = ' Essa frase é um vetor'
 
-print("terceira possição do vetor =>" ,strVetor[3])
+print("terceira possição do vetor =>" ,trabalhoComSTR[3])
 
 
 
 #pegar os valores entre as string
 
-print("Vetores entre as str" ,strVetor[2:5])
+print("Vetores entre as str" ,trabalhoComSTR[2:5])
 
 #retira os espaços do inicio string
 
-print(strVetor.strip())
+print(trabalhoComSTR.strip())
 
+# retorna o complimento da string
+
+print(len(trabalhoComSTR))
+
+#retorna tudo em minusculo
+print(trabalhoComSTR.lower())
+
+# retorna tudo em maiusculo 
+print(trabalhoComSTR.upper())
+
+#retorna a substituição de strings 
+print(trabalhoComSTR.replace("E","V"))
+
+#divide a string no meio suprimindo o elemento divisor
+print(trabalhoComSTR.split("é"))
 
 
 exit()
