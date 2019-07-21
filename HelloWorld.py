@@ -149,8 +149,20 @@ print(listaDeFrutas)
 listaDeFrutas = ['maça','pessego','limão']
 print(listaDeFrutas)
 
-#adicionar elemento a lista
-listaDeFrutas.append('maça')
+#adicionar elemento a lista de forma incremental
+listaDeFrutas.append('uva')
+print(listaDeFrutas)
+
+#adicionar elemento a lista de acordo com index informado
+listaDeFrutas.insert(1,'mamão')
+print(listaDeFrutas)
+
+#remover um elemento pesquisado na lista
+listaDeFrutas.remove('mamão')
+print(listaDeFrutas)
+
+#remove o ultimo elemento ou index definido na lista
+listaDeFrutas.pop()
 print(listaDeFrutas)
 
 def funcao(): #criei essa função apenas para  poder percorrer o for 
@@ -159,5 +171,10 @@ def funcao(): #criei essa função apenas para  poder percorrer o for
      print(x)
 
 funcao()
+
+#mostra o comprimento da lista 
+print(len(listaDeFrutas))
+
+#adicionar um elemento a lista 
 
 exit()
