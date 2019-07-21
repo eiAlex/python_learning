@@ -175,6 +175,25 @@ funcao()
 #mostra o comprimento da lista 
 print(len(listaDeFrutas))
 
-#adicionar um elemento a lista 
+#Turplas 
+#são escritas de formas imutáveis
+
+turplasFrutas = ['pera','uva','maçã']
+print(turplasFrutas)
+
+#printa elemento de determinada possição de uma turpla
+print(turplasFrutas[0])
+
+#percorrer uma turpla imutavel 
+for y in turplasFrutas:
+    print(y)
+
+#pesquisa um elemento na turpla
+if 'pera' in turplasFrutas:
+    print("Existe pera")
+
+#mostra o comprimento da turpla
+print(len(turplasFrutas))
+
 
 exit()
