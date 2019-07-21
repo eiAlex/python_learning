@@ -133,12 +133,31 @@ x1+=5
 print(x1)
 x1**=5
 print(x1)
-bool(x1)
-x1&=5
-print(x1)
 
+#listas
+listaDeFrutas = ['banana','maça', 'uva']
+print(listaDeFrutas)
 
+#print de elemento de uma lista 
+print(listaDeFrutas[1])
 
+#Edição de elemento da lista
+listaDeFrutas[1] = 'laranja'
+print(listaDeFrutas)
 
+#adicionar sobrescrevendo elementos
+listaDeFrutas = ['maça','pessego','limão']
+print(listaDeFrutas)
+
+#adicionar elemento a lista
+listaDeFrutas.append('maça')
+print(listaDeFrutas)
+
+def funcao(): #criei essa função apenas para  poder percorrer o for 
+    #percorrendo a lista com um vetor
+    for x in listaDeFrutas:
+     print(x)
+
+funcao()
 
 exit()
