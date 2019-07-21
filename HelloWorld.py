@@ -4,7 +4,7 @@ print("Hello, World!")
 
 # no python as variaveis são criadas no momento que são instanciadas
 idade = 125
-nome = "Alex"
+nome = "Alex {}"
 sobrenome = 'Junio'
 
 print(nome,sobrenome,idade)
@@ -83,6 +83,37 @@ print(trabalhoComSTR.replace("E","V"))
 
 #divide a string no meio suprimindo o elemento divisor
 print(trabalhoComSTR.split("é"))
+
+#divide a string em linhas 
+print(textoSa.splitlines())
+
+#para inserir numeros em string 
+print(nome.format(idade))
+
+#trabalho com STR formate
+quantidade = 200
+item = "Mel solis"
+preco = 10.20
+
+print("A quandidade é: {}, do {} tem o preço de {}".format(quantidade,item,preco))
+
+
+#Operadores Aritimeticos 
+
+#soma
+print(1+2)
+#subtração
+print(1-2)
+#divisão 
+print(1/2)
+#multiplicação
+print(1*2)
+#modulo
+print(1%2)
+#exponeciação
+print(1**2)
+#parte inteira da divisão
+print(81//9)
 
 
 exit()
