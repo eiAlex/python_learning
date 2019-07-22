@@ -195,5 +195,10 @@ if 'pera' in turplasFrutas:
 #mostra o comprimento da turpla
 print(len(turplasFrutas))
 
+#conjuntos de sets são listas desordenas e não indexadas
+
+setFrutas = {'uva', 'pera', 'maçã'}
+
+print(setFrutas)
 
 exit()
