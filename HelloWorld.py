@@ -237,8 +237,50 @@ print(setFrutas)
 #deletar o set
 del setFrutas
 
+#dicionários em python
+dicionarioVendas = {
+    "item"           : "Comida",
+    "nome"           : "Peixe",
+    "preco"          :  22.02,
+    "dataValidade"   :  "15/07/2020"
+}
 
+print(dicionarioVendas)
 
-#para 
+#acessando determinado iten do dicionario
+print(dicionarioVendas["nome"])
+# utiliza o get tem a mesma equivalencia
+print(dicionarioVendas.get("nome"))
+
+#mostra o tamanho do dicionario
+print(len(dicionarioVendas))
+
+#alterar um lemento do dicionaio 
+dicionarioVendas["nome"] = "Boi"
+print(dicionarioVendas)
+
+#percorre um dicionario 
+for z in dicionarioVendas:
+    print (z)
+
+#percorre e printa os elemento do dicionario
+for a in dicionarioVendas:
+    print(dicionarioVendas[a])
+
+#para retorna apenas os valores do dicionario
+for b in dicionarioVendas.values():
+    print(b)
+
+#para adicionar mais um elemento ao dicionario
+dicionarioVendas["id"] = 1
+print(dicionarioVendas)
+
+#remover um item do dicionario
+dicionarioVendas.pop("item")
+print(dicionarioVendas)
+
+#remover o ultimo item do dicionario
+dicionarioVendas.popitem()
+print(dicionarioVendas)
 
 exit()
