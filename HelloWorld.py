@@ -198,7 +198,47 @@ print(len(turplasFrutas))
 #conjuntos de sets são listas desordenas e não indexadas
 
 setFrutas = {'uva', 'pera', 'maçã'}
+print(setFrutas)
+
+#busca se existe algum elemento no SET
+print("banana" in setFrutas)
+
+#Adicionar um elemento ao set
+setFrutas.add("banana")
+print(setFrutas)
+
+#adicionar varios itens no set 
+
+setFrutas.update(["morango", "manga", "tomate"])
 
 print(setFrutas)
+
+#comprimento de um set 
+print(len(setFrutas))
+
+#Não é possivel alterar itens depois que o conjunto é criado 
+
+#remover um elemento pesquisado na lista se o item pesquisado não existir gera um erro
+setFrutas.remove("tomate")
+print(setFrutas)
+
+# já no caso do discard se o elemento não existir não retornará um erro 
+setFrutas.discard("tomate")
+print(setFrutas)
+
+#removendo o ultimo elemento do set 
+setFrutas.pop()
+print(setFrutas)
+
+#esvaziar um conjunto
+setFrutas.clear()
+print(setFrutas)
+
+#deletar o set
+del setFrutas
+
+
+
+#para 
 
 exit()
