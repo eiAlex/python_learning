@@ -283,4 +283,27 @@ print(dicionarioVendas)
 dicionarioVendas.popitem()
 print(dicionarioVendas)
 
+#Se e Else
+k = 10
+u = 10
+
+#operador de igualdade
+print(k==u)
+
+#operador diferente
+print(k!=u)
+
+#operador maior e menor 
+print(k<u,k>u)
+
+#operador marior igual e menor igual
+print(k<=u, k>=u)
+
+#se 
+if k > u:
+    print("{} é maior que {}".format(k,u))
+elif k<u:
+    print("{} é menor que {}".format(k,u))
+else:
+    print("São iguais")
 exit()
