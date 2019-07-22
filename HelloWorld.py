@@ -299,11 +299,36 @@ print(k<u,k>u)
 #operador marior igual e menor igual
 print(k<=u, k>=u)
 
-#se 
+#se, se não se e se não
 if k > u:
     print("{} é maior que {}".format(k,u))
 elif k<u:
     print("{} é menor que {}".format(k,u))
 else:
     print("{} é igual {}".format(k,u))
+
+
+# laços de repetição 
+m = 1
+while m < 6:
+    print(m)
+   # m = (m + 1)
+    m+=1
+
+#parando um laço de repetição com Bleak
+n = 1
+while n < 10:
+    print(n)
+    if n == 5:
+        break
+    n+=1
+
+#instrução continue 
+o = 0
+while o < 5:
+    o += 1
+    if o == 3:
+        continue
+    print(o)
+
 exit()
