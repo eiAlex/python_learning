@@ -305,5 +305,5 @@ if k > u:
 elif k<u:
     print("{} é menor que {}".format(k,u))
 else:
-    print("São iguais")
+    print("{} é igual {}".format(k,u))
 exit()
