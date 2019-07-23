@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 
+'''
 from wx import  *
 
 ID_ABOUT = 101
 ID_EXIT = 102
 
-class MyFrame(wx.Frame):
+class MyFrame(wx.):
     def __init__(self, parent, ID, title):
         wx.Frame.__init__(self, parent, ID, title, wx.DefaultPosition, wx.Size(200, 150))
         self.CreateStatusBar()
@@ -26,4 +27,13 @@ class MyAPP(wx.App):
         return True
 
 app = MyAPP(0)
+app.MainLoop()
+
+'''
+
+import wx 
+
+app = wx.App()
+frame = wx.Frame(None, -1, 'Titulo')
+frame.Show()
 app.MainLoop()
