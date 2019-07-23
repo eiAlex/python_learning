@@ -334,15 +334,40 @@ while o < 5:
 
 # trabalhando com FOR
 montadoras = ['BMW', 'Ferrari','Lamburguini', 'ConningSER', 'Chevrolet', 'Fiat']
-#for x in montadoras:
-   # print(x)
+for x in montadoras:
+    print(x)
 
 #para o fro possuirmos um break tambem
 
 for x in montadoras:
     print(x)
-    if montadoras == 'ConningSER':
+    if x == 'Ferrari':
         break
+
+# para o for utilize o continue 
+
+for x in montadoras:
+    print(x)
+    if x == 'BWM':
+        continue
+
+#usando função com range tipo limite de contage do laço
+
+for x in range(3):
+    print(x)
+
+# usando o ranger delimitado 
+
+for x in (2,6):
+    print(x)
+
+#matriz
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
 
 exit()
 
