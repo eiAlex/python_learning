@@ -331,4 +331,18 @@ while o < 5:
         continue
     print(o)
 
+
+# trabalhando com FOR
+montadoras = ['BMW', 'Ferrari','Lamburguini', 'ConningSER', 'Chevrolet', 'Fiat']
+#for x in montadoras:
+   # print(x)
+
+#para o fro possuirmos um break tambem
+
+for x in montadoras:
+    print(x)
+    if montadoras == 'ConningSER':
+        break
+
 exit()
+
