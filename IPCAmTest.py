@@ -8,4 +8,4 @@ while True:
 
     cv2.imshow('frame', img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+        breakpython if
