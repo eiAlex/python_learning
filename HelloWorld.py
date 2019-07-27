@@ -369,5 +369,46 @@ for x in adj:
   for y in fruits:
     print(x, y)
 
+
+#função uma função é um bloco de código que só é usado quando chamado 
+
+#função sem parâmetros
+def funcaoTeste():
+    print("Esta função foi chamada")
+
+funcaoTeste()
+
+#função passando parâmetros
+def funcaoComParametros(nome):
+    print("Esse é o nome", nome)
+
+funcaoComParametros("Alex")
+
+#função com padrão de dados passado 
+def funcaComParametrosPadrao(nomePais="Brasil"):
+    print("O nome do pais é: ", nomePais)
+
+funcaComParametrosPadrao("India")
+funcaComParametrosPadrao()
+
+# função com resturn
+
+def funcaoComRetorno(x):
+    return x * x
+
+print (funcaoComRetorno(10))
+
+
+#função recursiva 
+def funcaorecursiva(valorK):
+    if valorK > 1:
+        valorK -= 1
+        print(valorK)
+        funcaorecursiva(valorK)
+    else:
+        print("Fim da recursão", valorK)
+
+funcaorecursiva(6)
+
 exit()
 
