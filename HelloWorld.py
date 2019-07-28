@@ -410,5 +410,9 @@ def funcaorecursiva(valorK):
 
 funcaorecursiva(6)
 
+#função lambda
+x2 = lambda a:a +10 
+print(x2(5))
+
 exit()
 
