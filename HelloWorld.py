@@ -455,6 +455,14 @@ carros.append("Volvo")
 carros.remove("Volvo")
 print(carros)
 
+# método esporádico  que retorna media 
+
+def media(a,b):
+    media = (a + b)/2
+    print(media)
+
+media(2,2)
+
 
 
 
