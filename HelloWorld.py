@@ -424,6 +424,39 @@ x7 =lambda  i,j,k : i + j + k
 
 print(x7(1,2,3))
 
+#Arrays são usados como matrizes de dados para armazenas varios valorees em uma unica variável
+
+carros =  ["Ford", "Volvo", "BMW", "Fiat"]
+
+#Acessando um elemento na matriz
+
+print(carros[2])
+
+#comrimento da array
+
+print(len(carros))
+
+# percorrendo o vetor
+
+for x in carros:
+    print(x)
+
+
+#adicionar um elemento ao vetor
+carros.append("Honda")
+print(carros)
+
+#remover um elemento no final  da matriz ou um index
+carros.pop()
+print(carros)
+
+#remover por pesquisa de primeira ocorrência
+carros.append("Volvo")
+carros.remove("Volvo")
+print(carros)
+
+
+
 
 exit()
 
