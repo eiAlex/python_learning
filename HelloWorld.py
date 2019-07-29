@@ -414,5 +414,16 @@ funcaorecursiva(6)
 x2 = lambda a:a +10 
 print(x2(5))
 
+#funçcão lambda multiplicando
+x6 = lambda f , g : f * g
+
+print(x6(10,10))
+
+#funcão lambda com muitos elementos
+x7 =lambda  i,j,k : i + j + k 
+
+print(x7(1,2,3))
+
+
 exit()
 
