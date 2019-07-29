@@ -463,6 +463,18 @@ def media(a,b):
 
 media(2,2)
 
+#Python é uma linguagem orientada a objetos quase tudo é um um obejeto com suas propiedades e métodos.
+# Uma classe é como um construtor de obejetos, ou um modelo para criar um objeto
+
+#criar uma classe
+class NovaClass:
+    x = 5
+
+# lendo objeto da classe
+
+p1 = NovaClass()
+print(p1.x)
+
 
 
 
