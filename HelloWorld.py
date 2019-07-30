@@ -476,11 +476,6 @@ p1 = NovaClass()
 print(p1.x)
 
 
-from  Person
-
-p2 = Person("Maria", 12)
-
-print(p2.name)
-
+#
 exit()
 
