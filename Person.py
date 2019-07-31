@@ -1,7 +1,24 @@
 # -*- coding utf-8 -*- 
 
+#python é uma linguagem orientada a objetos
+# qause tudo em python é orientado a objettos com suas propiedades e métodos 
+#uma clase é como um construtor de objetos, ou um moodelo para ciração deles 
+
+#para criar um objeto do tipo class utilizamos a palavra class
+
+#criado uma class com a propiedade x
+class MyClass:
+    x = 5
+
+#chamda de uma classe
+
+a = MyClass()
+print(a.x)
+
 
 # Todas as classes tem uma função chamada __init__(), que é executada quando a classe é chamada 
+
+
 
 # podemos criar a classe  e a iniciarmos 
 class Person:
