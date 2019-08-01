@@ -29,3 +29,17 @@ class Person:
 p1 = Person("Alex", 28)
 
 print(p1.name, p1.age)
+
+# nas classes podemetos ter tambem metodos 
+
+class car:
+    def __init__(self, name, color):
+        self.name = name
+        self.color = color
+
+    def myfunctio(self):
+        print("Hello " + self.name)
+
+
+c1 = car("Ferrari", "Blue")
+c1.myfunctio()
