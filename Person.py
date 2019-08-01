@@ -25,6 +25,9 @@ class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
+    
+    def funcaoPrint(self):
+        print("Helllo ", self.name, self.age)
 
 p1 = Person("Alex", 28)
 
@@ -43,3 +46,27 @@ class car:
 
 c1 = car("Ferrari", "Blue")
 c1.myfunctio()
+
+# Herança com python 
+
+# A herança nos permite definir uma classe que herda todos métodos e propiedades de uma classe vindos de outra classe.
+
+# Temos a classe pai que está sendo herdada de, também chamada de classe base.
+# temos a classe filha que recebe todos os atributos oriundos da classe pai derivada.
+
+# No paython qualquer classe pode ser uma classe pai, a sintaxe é a mesma para crialção de qulquer uma classse
+
+# classe filha de pessoa 
+
+class Student(Person):
+    pass # use a palavra pass para utiliza
+
+# Utilizamos os atributos de pessoa
+
+s = Student("Aline",28)
+print(s.name, s.age)
+
+s.funcaoPrint()
+
+
+# Classe que devirva de carro 
