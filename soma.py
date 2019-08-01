@@ -7,5 +7,5 @@ num2 = int (input ("Segundo número "))
 
 soma =  num1 + num2
 
-print ("Resultado: ", num1, " + ", num2, " = ", soma) # fromato antigo
-print ('Resultado: {0} + {1} = {2} '.format(num1, num2, soma)) # argumentos em um vetor
+#print ("Resultado: ", num1, " + ", num2, " = ", soma) # fromato antigo
+#print ('Resultado: {0} + {1} = {2} '.format(num1, num2, soma)) # argumentos em um vetor
