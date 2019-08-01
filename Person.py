@@ -66,7 +66,22 @@ class Student(Person):
 s = Student("Aline",28)
 print(s.name, s.age)
 
+# utilizando método de função derivada 
 s.funcaoPrint()
 
 
-# Classe que devirva de carro 
+# inicando com com o __init()__
+
+# A função __imiti()__ é chamada automaticamente quando toda vez que é criada por um obejeto 
+# caso quando ela é passada como na classe filha ela sobreescrever o init da função pai
+
+class student2(Person):
+    def __init__ ( self, name, age, year): # qaundo se adiciona o init desta forma a classe não erdará de seu pai 
+        # para manter a erança utilize um inite para classe pai 
+        Person.__init__(self, name, age)
+        self.graduationYaer = year
+
+
+z = Student("Mike", 21, 2019)
+
+z.funcaoPrint()
