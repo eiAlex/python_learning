@@ -487,5 +487,15 @@ print(next(interator))
 print(next(interator))
 print(next(interator))
 
+#percorrendo turpla fom laço 
+for x in listaFrutas:
+     print(x)
+
+
+#inteiração dentro de uma string
+strFruta = "Banana"
+for x in strFruta:
+    print(x)
+
 exit()
 
