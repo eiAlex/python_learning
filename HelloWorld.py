@@ -476,6 +476,16 @@ p1 = NovaClass()
 print(p1.x)
 
 
-#
+#Iterators
+# Um interator  é um objeto que contém um numéro de valores contáveis.
+# um Interator é um objeto que pode ser incrementado por cima,
+
+listaFrutas = ("Apple", "Banna", "Cherry")
+interator = iter(listaFrutas)
+
+print(next(interator))
+print(next(interator))
+print(next(interator))
+
 exit()
 
