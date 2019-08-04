@@ -497,5 +497,28 @@ strFruta = "Banana"
 for x in strFruta:
     print(x)
 
+
+# para criar um obejeto com um interator é nescessário criar um obejtico no __init()__ e __next()__
+
+class InteratorNumber:
+    def __iter__(self):
+        self.a = 1
+        return self
+
+    def __next__(self):
+        x = self.a
+        self.a += 1
+        return x
+
+interatorNumber = InteratorNumber()
+interatorNumber = iter (interatorNumber)
+
+print(next(interatorNumber))
+print(next(interatorNumber))
+print(next(interatorNumber))
+print(next(interatorNumber))
+
+
+
 exit()
 
