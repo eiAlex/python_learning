@@ -619,7 +619,46 @@ print(data.strftime("%%"))
 import datetime as DR
 
 xA = DR.datetime(2020, 5, 17)
-
 print(xA)
+
+
+#Json com python
+
+import json as js
+
+# Carga de um json no python é um dicionário 
+
+# some JSON:
+umJson =  '{ "name":"John", "age":30, "city":"New York"}'
+
+#parse do json
+
+pJson = js.loads(umJson)
+
+#leitura do dicionario
+print(pJson['name'])
+
+#conversão de um dicionario para json
+
+dicionarioJson = js.dumps(pJson)
+
+print(dicionarioJson)
+
+#formatar  json
+
+jsonFormatado = js.dumps(pJson, indent=4)
+
+print(jsonFormatado)
+
+# print json com separato formatado
+jsonFormatado = js.dumps(pJson, indent=4, separators=(".", "="))
+
+print(jsonFormatado)
+
+#Tambem com parametros ordenados
+jsonFormatado = js.dumps(pJson, indent=4, separators=(".", "="), sort_keys=True)
+
+print(jsonFormatado)
+
 exit()
 
