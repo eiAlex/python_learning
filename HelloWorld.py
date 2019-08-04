@@ -519,6 +519,21 @@ print(next(interatorNumber))
 print(next(interatorNumber))
 
 
+# chamada de modulos 
+
+import TesteModulo as TM # um modulo pode ser nomedo por um alias
+
+#TesteModulo.cumprimento("Yoga")
+TM.cumprimento("Yoga")
+
+#ab = TesteModulo.pessoa["idade"] # chamada de modulo especifico
+ab = TM.pessoa["idade"] # chamada de modulo especifico
+print(ab)
+
+ac = TM.pessoa["nome"]
+print(ac)
+
+
 
 exit()
 
