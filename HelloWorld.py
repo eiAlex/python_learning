@@ -615,5 +615,11 @@ print(data.strftime("%X"))
 print(data.strftime("%%"))
 
 
+#Adicionar data fixada
+import datetime as DR
+
+xA = DR.datetime(2020, 5, 17)
+
+print(xA)
 exit()
 
