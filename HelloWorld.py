@@ -533,6 +533,86 @@ print(ab)
 ac = TM.pessoa["nome"]
 print(ac)
 
+# trabalahando com datas em python
+
+import datetime as dt
+
+#imprime a data 
+print(dt.datetime.now())
+
+data = dt.datetime.now()
+
+#retorna um objeto inteiro como int
+print(data.year)
+
+#Retorna o dia da semna em full vresion
+print(data.strftime("%A"))
+
+#Retorna a data rezumida 
+print(data.strftime('%a'))
+
+#Retorna o dia da semana em formato numerioco de 0-6
+print(data.strftime("%w"))
+
+#Retorna o dia do mês em formato numerico de 01-31
+print(data.strftime("%d"))
+
+#Retorna o  mês em formato resumido
+print(data.strftime("%b"))
+
+#Retorna o mês em full formate
+print(data.strftime("%B"))
+
+#Retorna o numero do mês de  1-12
+print(data.strftime("%m"))
+
+#Retorna o ano em versão resumida
+print(data.strftime("%y"))
+
+#Retorna o ano em versão full
+print(data.strftime("%Y"))
+
+#Retorna o hora em formato 24hrs
+print(data.strftime("%H"))
+
+#Retorna a hora em formato 12hrs
+print(data.strftime("%I"))
+
+#Retorna se é manha ou tarde 
+print(data.strftime("%p"))
+
+#Retorna os minutos
+print(data.strftime("%M"))
+
+#Retorna os seguntos
+print(data.strftime("%S"))
+
+#Retorna os microsegundo entre 00000-999999
+print(data.strftime("%f"))
+
+#Retorna o UTC OOFSET
+print(data.strftime('%z'))
+
+#Retorna a timezone
+print(data.strftime('%Z'))
+
+#Retorna o dia do ano entre 1-365
+print(data.strftime("%j"))
+
+#Retora o dia da semana do ano entre 00-53
+print(data.strftime("%U"))
+
+#Retorna a versão local do date time
+print(data.strftime("%c"))
+
+#Retorna a versão local 
+print(data.strftime("%x"))
+
+#Retorna a versão full
+print(data.strftime("%X"))
+
+#Retorna..
+print(data.strftime("%%"))
 
 
 exit()
