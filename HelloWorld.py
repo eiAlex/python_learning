@@ -679,7 +679,7 @@ print(reX) # mostra o objeto de busca da string
 
 #Returns a list containing all matches
 #Retorna uma lista contendo todas as correspondências
-txt11 = "a lua cheia clareia as ruas do capão"
+txt11 = "a lua cheia clareia as ru@s do capão 1 "
 reX = re.findall("as",txt11)
 print(reX)
 
@@ -694,6 +694,24 @@ print(reX)
 #Subistitui uma ocorrecia na string
 reX = re.sub("\s", "*", txt11)
 print(reX)
+
+# Retorna se tem caracteres numericos de 0-9
+reX = re.search("\d",txt11)
+print(reX)
+
+#busca uma sequencia inicidada em detereminado caractwes e teminda
+reX= re.findall("clar..a", txt11)
+print(reX)
+
+#Caracteres iniciados
+reX = re.search("^cheia",txt11)
+print(reX)   
+
+# teste de instalador de pacotes pip
+import camelcase
+c = camelcase.CamelCase()
+txte = "hello world"
+print(c.hmp(txte))
 
 exit()
 
