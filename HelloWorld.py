@@ -713,6 +713,15 @@ c = camelcase.CamelCase()
 txte = "hello world"
 print(c.hump(txte))
 
+#testanto o controle de exeções do python o bloco try permite verificar se existe um erro "tente"
+#O trybloco permite testar um bloco de código para erros.
+#O exceptbloco permite manipular o erro.
+#O finallybloco permite executar código, independentemente do resultado do tentar- e, exceto blocos.
+
+try:
+    print(alfa)
+except NameError:
+    print("variavel não instanciada")
 
 
 
