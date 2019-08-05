@@ -728,9 +728,32 @@ except NameError:
 # no python 2.7 inferior se utiliza raw_input().
 
 print("Diga seu nome")
-nome = input()
-
+#nome = input()
 print("Olá ",nome)
+
+#Formatar string 
+#utilizar o metodo format() permite formatar partes selecionadas da string
+
+preco = 49
+txt = "Opreço é {} reais"
+print(txt.format(preco))
+
+#Formatar preço com 2 casas depois da virgyla
+txt = "O preço é {:.2f} reais"
+print(txt.format(preco))
+
+# formatar string com varios valores
+txt = "O preço de é {:.2f} reias, com desconto de {}%"
+desconto = 10
+print(txt.format(preco,desconto))
+
+# formatar com index´s, podem ser repetidos tambem 
+txt = "O preço de é {0:.2f} reias, com desconto de {1}% + {1}%"
+print(txt.format(preco,desconto))
+
+#Formatar com index´s nomeados 
+myorder = "I have a {carname}, it is a {model}."
+print(myorder.format(carname = "Ford", model = "Mustang"))
 
 exit()
 
