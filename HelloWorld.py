@@ -711,7 +711,10 @@ print(reX)
 import camelcase
 c = camelcase.CamelCase()
 txte = "hello world"
-print(c.hmp(txte))
+print(c.hump(txte))
+
+
+
 
 exit()
 
