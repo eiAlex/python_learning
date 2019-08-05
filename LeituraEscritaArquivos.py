@@ -18,3 +18,12 @@ print(f.read())
 
 #imprimir os 5 primeiros itens da string carregada 
 print(f.read(5))
+
+#Realizar print de linhas separadas
+print(f.readline())
+print(f.readline())
+print(f.readlines())
+
+# Fechar o arquivo aberto 
+
+f.close()
