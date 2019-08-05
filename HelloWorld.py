@@ -660,5 +660,40 @@ jsonFormatado = js.dumps(pJson, indent=4, separators=(".", "="), sort_keys=True)
 
 print(jsonFormatado)
 
+#RegEX ou Expressões regulares São um padrão de caracteres em pesquisa
+#RegeEX pode ser usado para verificar se uma string tem um determindao padrão 
+
+# no python tem um pacote incorporado nele
+
+import re
+txt12 = "The rain in Spain"
+reX =  re.search("^The.*Spain$", txt12)
+if reX:
+    print("Deu match")
+else:
+    print("Não deu match")
+
+print(txt12)
+print(reX) # mostra o objeto de busca da string
+
+
+#Returns a list containing all matches
+#Retorna uma lista contendo todas as correspondências
+txt11 = "a lua cheia clareia as ruas do capão"
+reX = re.findall("as",txt11)
+print(reX)
+
+#Retorna um objeto Match se houver uma correspondência em qualquer lugar da string
+reX = re.search("lua",txt11)
+print(reX)
+
+#Divide a string de acordo com uma ocorrencia definida
+reX = re.split("clareia",txt11) # a palavra como argumento de divisão é suprimida
+print(reX)
+
+#Subistitui uma ocorrecia na string
+reX = re.sub("\s", "*", txt11)
+print(reX)
+
 exit()
 
