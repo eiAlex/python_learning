@@ -723,7 +723,14 @@ try:
 except NameError:
     print("variavel não instanciada")
 
+# entradas do teclado 
+# no python 3 em diante se utiliza o input().
+# no python 2.7 inferior se utiliza raw_input().
 
+print("Diga seu nome")
+nome = input()
+
+print("Olá ",nome)
 
 exit()
 
