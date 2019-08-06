@@ -27,3 +27,26 @@ print(f.readlines())
 # Fechar o arquivo aberto 
 
 f.close()
+
+# Escrever um arquivo 
+
+a = open("testefile.txt", "w")
+a.write("Now the file has more content!")
+a.close()
+
+arquivo = open("arquivo.txt", "w")
+
+arquivo.write("Essa é a primeira linha escrita por nós. \n")
+arquivo.write("Essa é a nossa segunda linha.")
+arquivo.write("Essa deveria ser a terceira linha porém ainda é a segunda. \n")
+arquivo.write("Essa sim é a terceira.")
+
+arquivo.close()
+
+#lendo aqrquivo criado 
+
+txt  = open("Arquivo.txt", "r")
+txt1 = txt.read()
+txt.close()
+
+print(txt1)
