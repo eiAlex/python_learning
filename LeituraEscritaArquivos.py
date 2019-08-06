@@ -50,3 +50,19 @@ txt1 = txt.read()
 txt.close()
 
 print(txt1)
+
+#Excluir um arquivo
+#para excluir um arquivo, deve-se importar o modulo OS, executar o método os.remove():
+
+import os
+os.remove("Arquivo.txt")
+
+# verifica se o arquivo existe 
+
+print(os.path.exists("Arquivo.txt"))
+
+# criar uma pasta 
+os.mkdir("Pasta")
+
+# Remove uma pasta 
+os.rmdir("Pasta")

@@ -1,3 +1,0 @@
-Essa é a primeira linha escrita por nós. 
-Essa é a nossa segunda linha.Essa deveria ser a terceira linha porém ainda é a segunda. 
-Essa sim é a terceira.
