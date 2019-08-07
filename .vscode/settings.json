@@ -10,7 +10,7 @@
     "python.testing.nosetestsEnabled": false,
     "python.testing.unittestEnabled": true,
     "python.testing.pytestArgs": [
-        "__pycache__"
+        "."
     ],
     "python.linting.pylintEnabled": false,
     "python.linting.enabled": true,

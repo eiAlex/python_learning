@@ -5,7 +5,7 @@ mydb = mysql.connector.connect(
   user="root",
   passwd="minhasenhasegura"
 )   
-
+ 
 #mostra a conexão com banco
 print(mydb) 
 
