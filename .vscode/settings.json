@@ -11,5 +11,10 @@
     "python.testing.unittestEnabled": false,
     "python.testing.pytestArgs": [
         "__pycache__"
-    ]
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.pythonPath": "D:\\ProgramData\\Anaconda3\\python.exe",
+    "python.linting.mypyEnabled": true,
+    "python.linting.pylamaEnabled": false
 }
