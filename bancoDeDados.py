@@ -28,11 +28,18 @@ testeCursor.execute("SELECT * FROM CHARACTER_SETS LIMIT 5")
 #for x in testeCursor:
   #print(x)
 
-print(testeCursor._rows)
+#print(testeCursor._rows)
 
 
-#verifica se banco existe
-testeCursor.execute("SHOW DATABASES")
-print(testeCursor._rows)
+#retorna as colunas do codigp
+testeCursor.execute("SELECT * FROM CHARACTER_SETS LIMIT 5")
+#retorna as turplas
+dataBase = testeCursor.fetchall()
+#print(dataBase)
+print("------------------------------------------------")
+#percorre a tabela e imprime 
 
+print(testeCursor.column_names)
+for table in dataBase:
+  print(table)
  
