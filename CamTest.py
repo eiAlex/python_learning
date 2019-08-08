@@ -2,7 +2,8 @@ import cv2
 import numpy as np
 import time
 
-cam = cv2.VideoCapture('http://10.2.21.51:8080/videofeed') # passandro o atributo 0 vc conecta na web cam padrão
+#cam = cv2.VideoCapture('http://10.2.21.51:8080/videofeed') # passandro o atributo 0 vc conecta na web cam padrão
+cam = cv2.VideoCapture(0) # passandro o atributo 0 vc conecta na web cam padrão
 
 time.sleep(2)
 
