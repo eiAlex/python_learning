@@ -88,4 +88,16 @@ mydb.commit()
 #printe de contagem de linhas inteiradas
 print("Contagem de linhas", testeCursor.rowcount)
 
+#para obter o ultimo index inserido 
+print("primeiro ID: ", testeCursor.lastrowid)
+
+#Select de uma tabela 
+testeCursor.execute('SELECT * FROM DBTESTE.VENDEDORES')
+resultadoConsulta = testeCursor.fetchall()
+
+for tabela in resultadoConsulta:
+      print(tabela)
+
+#como uma lista
+print (resultadoConsulta)
 mydb.close()

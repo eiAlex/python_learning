@@ -14,7 +14,7 @@
     ],
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "python.pythonPath": "D:\\ProgramData\\Anaconda3\\python.exe",
+    "python.pythonPath": "C:\\Users\\alex.silva\\AppData\\Local\\Continuum\\anaconda3\\python.exe",
     "python.linting.mypyEnabled": false,
     "python.linting.pylamaEnabled": false
 }
