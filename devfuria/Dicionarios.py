@@ -22,3 +22,19 @@ print(pessoa["ID"])
 
 #tamanho do diciário 
 print(len(pessoa))
+
+#outro dicionario 
+mydict = {
+    '1' : 'a',
+    '2' : 'b',
+    '3' : 'c'
+}
+
+#print de itens chave valor
+print(mydict.items())
+
+#print de chaves
+print(mydict.keys())
+
+#print valores
+print(mydict.values())
