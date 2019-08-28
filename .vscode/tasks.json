@@ -21,9 +21,22 @@
             "problemMatcher": []
         },
         {
-            "label": "dir",
+			"label": "dir",
+			"type": "shell",
+			"command": "dir",
+			"presentation": {
+				"panel": "new"
+			},
+			"problemMatcher": []
+		},
+        {
+            "label": "python",
             "type": "shell",
-            "command": "dir"
+            "command": "python",
+            "presentation": {
+                "panel": "new"
+            },
+            "problemMatcher": []
         }
     ]
 }
