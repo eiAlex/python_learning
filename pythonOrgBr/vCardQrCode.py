@@ -10,18 +10,15 @@ qr = qrcode.QRCode(
 )
 qr.add_data('''BEGIN:VCARD
 VERSION:3.0
-FN;CHARSET=UTF-8:Pedro Canalini
-N;CHARSET=UTF-8:;Pedro Canalini;;;
-EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:pedroc@montreal.com.br
-TEL;TYPE=CELL:21975395588 
-TEL;TYPE=WORK,VOICE:2122764093 
-TITLE;CHARSET=UTF-8:Gerente Comercial | Diretoria Regional RJ
-ORG;CHARSET=UTF-8: Montreal Informática
-URL;type=WORK;CHARSET=UTF-8:https://www.montreal.com.br/
-END:VCARD
+FN;CHARSET=UTF-8:Gaspar Carreira Júnior
+N;CHARSET=UTF-8:;Gaspar Carreira Júnior;;;
+EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:gaspar@carreirajrconsultoria.com
+TEL;TYPE=CELL:21988010159
+TITLE;CHARSET=UTF-8:Business Advisor, Conselheiro, Consultor
+ORG;CHARSET=UTF-8: Gestão empresarial e Financeira
 ''')
 qr.make(fit=True)
 
 img = qr.make_image(fill_color="#7e171d", back_color = "#dddddc")
 img.show()
-img.save('QrcodePedro_1.png', 'PNG')
+img.save('QrcodeclienteGaspar.png', 'PNG')
