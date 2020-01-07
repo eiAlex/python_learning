@@ -2,6 +2,7 @@
 #Lista são similares a strings, que são uma sequência de caracteres no entando bem diferente.
 
 
+
 listaAnimains = ["Cachorro", "Gato", "Pato", "Galinha"]
 
 #imprimir um elemento em uma determinada
