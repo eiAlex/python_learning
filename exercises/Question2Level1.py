@@ -28,4 +28,5 @@ def calcFactorial (n):
         result *= i-1
     print(n,"!:", " x ".join(sequence) , " = " , result)
 
-calcFactorial(8)
+x  = int(input())
+calcFactorial(x)
