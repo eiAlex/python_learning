@@ -1,6 +1,6 @@
 import pandas as pd
 alphabet = "abcdefg"
-data = alphabet.split() #split string into a list
+data = alphabet.split() #split string into a list with delimiter
 
 for temp in data:
     print (temp)
