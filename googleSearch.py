@@ -3,7 +3,7 @@
 from googlesearch import  search
 
 
-query = "fotos de gatinho" # texto para a busca
+query = "harry poter" # texto para a busca
 
 ''' 
 tld = se refere ao dominio autoritativos Ex: .com, .br .in .co.in
@@ -15,5 +15,5 @@ pause = é um sleep de 2 segundo para não ter o http request bloqueado pela goo
 
 '''
 
-for i in search(query, tld="com.br", num=10, stop= 10, pause=2):
+for i in search(query, tld="com", num=10, stop= 10, pause=2):
     print(i)
