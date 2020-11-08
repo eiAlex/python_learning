@@ -5,8 +5,9 @@ proxies = {
     "http":"49.128.186.165:8080"
 }
 
-url = "http://api.ipify.org?format=json"
+url = "http://www.americanas.com.br/"
+while True:
+    
+    r = requests.get(url)
 
-r = requests.get(url,proxies=proxies)
-
-print(r.json())
+    print(r)

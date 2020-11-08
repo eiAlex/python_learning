@@ -3,7 +3,7 @@
 from googlesearch import  search
 
 
-query = "harry poter" # texto para a busca
+query = "geladeira consul é boa?" # texto para a busca
 
 ''' 
 tld = se refere ao dominio autoritativos Ex: .com, .br .in .co.in
