@@ -1,4 +1,5 @@
 .mypy_cache/
 gestao_rh/venv
-venv/*
+.venv/*
 venv/
+*.pyc
